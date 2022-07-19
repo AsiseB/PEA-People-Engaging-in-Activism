@@ -14,6 +14,11 @@
 		5D7F6B4C28874D98005E54EE /* PEA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F6B4A28874D98005E54EE /* PEA.xcdatamodeld */; };
 		5D7F6B4E28874D9A005E54EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F6B4D28874D9A005E54EE /* Assets.xcassets */; };
 		5D7F6B5128874D9A005E54EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F6B4F28874D9A005E54EE /* LaunchScreen.storyboard */; };
+		5D7F6B6128875C34005E54EE /* CurrentEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F6B6028875C34005E54EE /* CurrentEventsViewController.swift */; };
+		5D7F6B6328875C8A005E54EE /* KidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F6B6228875C8A005E54EE /* KidsViewController.swift */; };
+		5D7F6B6528875C94005E54EE /* TeensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F6B6428875C94005E54EE /* TeensViewController.swift */; };
+		5D7F6B6728875CA3005E54EE /* AdultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F6B6628875CA3005E54EE /* AdultsViewController.swift */; };
+		5D7F6B6928875CAB005E54EE /* EldersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F6B6828875CAB005E54EE /* EldersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		5D7F6B4D28874D9A005E54EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7F6B5028874D9A005E54EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7F6B5228874D9A005E54EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7F6B6028875C34005E54EE /* CurrentEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventsViewController.swift; sourceTree = "<group>"; };
+		5D7F6B6228875C8A005E54EE /* KidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsViewController.swift; sourceTree = "<group>"; };
+		5D7F6B6428875C94005E54EE /* TeensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeensViewController.swift; sourceTree = "<group>"; };
+		5D7F6B6628875CA3005E54EE /* AdultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultsViewController.swift; sourceTree = "<group>"; };
+		5D7F6B6828875CAB005E54EE /* EldersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				5D7F6B4128874D98005E54EE /* AppDelegate.swift */,
 				5D7F6B4328874D98005E54EE /* SceneDelegate.swift */,
 				5D7F6B4528874D98005E54EE /* ViewController.swift */,
+				5D7F6B6028875C34005E54EE /* CurrentEventsViewController.swift */,
+				5D7F6B6228875C8A005E54EE /* KidsViewController.swift */,
+				5D7F6B6428875C94005E54EE /* TeensViewController.swift */,
+				5D7F6B6628875CA3005E54EE /* AdultsViewController.swift */,
+				5D7F6B6828875CAB005E54EE /* EldersViewController.swift */,
 				5D7F6B4728874D98005E54EE /* Main.storyboard */,
 				5D7F6B4D28874D9A005E54EE /* Assets.xcassets */,
 				5D7F6B4F28874D9A005E54EE /* LaunchScreen.storyboard */,
@@ -142,9 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7F6B4628874D98005E54EE /* ViewController.swift in Sources */,
+				5D7F6B6728875CA3005E54EE /* AdultsViewController.swift in Sources */,
+				5D7F6B6128875C34005E54EE /* CurrentEventsViewController.swift in Sources */,
+				5D7F6B6528875C94005E54EE /* TeensViewController.swift in Sources */,
 				5D7F6B4228874D98005E54EE /* AppDelegate.swift in Sources */,
 				5D7F6B4C28874D98005E54EE /* PEA.xcdatamodeld in Sources */,
 				5D7F6B4428874D98005E54EE /* SceneDelegate.swift in Sources */,
+				5D7F6B6328875C8A005E54EE /* KidsViewController.swift in Sources */,
+				5D7F6B6928875CAB005E54EE /* EldersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
