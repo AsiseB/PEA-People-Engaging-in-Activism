@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KidsVie/Users/katherinemay/Documents/PEA-People-Engaging-in-Activism/PEA/Base.lproj/Main.storyboardwController: UIViewController {
+class KidsViewController: UIViewController {
 
     @IBOutlet weak var foodDriveButton: UIButton!
     
