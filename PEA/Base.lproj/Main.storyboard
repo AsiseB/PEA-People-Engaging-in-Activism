@@ -232,22 +232,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Events" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7h-eO-h07">
-                                <rect key="frame" x="140" y="59" width="114" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7h-eO-h07">
+                                <rect key="frame" x="133" y="44" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <color key="textColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Current Events">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="17" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYt-wr-cAD">
+                                <rect key="frame" x="54" y="241" width="307" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="questionmark.square.dashed" catalog="system">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="What can I do to help the Ukraine?">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="helpUkraineButton:" destination="Isg-VS-afz" eventType="touchUpInside" id="C6i-FJ-RK1"/>
+                                    <action selector="helpUkraineButton:" destination="LWk-SS-mFZ" eventType="touchUpInside" id="NsS-W3-IN0"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dVb-cg-bu2">
+                                <rect key="frame" x="87" y="96" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwu-eM-Bto">
+                                <rect key="frame" x="76" y="298" width="263" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title="Opportunities to help in your area"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uwi-Wn-Wsk"/>
-                        <color key="backgroundColor" red="0.67485070810000003" green="0.76942896839999997" blue="0.61568275829999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.52616884689999999" green="0.59990979960000002" blue="0.48003667039999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="AYU-3A-EL6"/>
+                    <connections>
+                        <outlet property="helpUkraineButton" destination="qYt-wr-cAD" id="HqS-Ye-Z3d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndK-ec-u8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="LWk-SS-mFZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="709" y="736"/>
+            <point key="canvasLocation" x="708.69565217391312" y="735.9375"/>
         </scene>
         <!--Kids View Controller-->
         <scene sceneID="qav-WD-c3j">
@@ -399,6 +440,8 @@
         <image name="food-drive" width="1306.6666259765625" height="735"/>
         <image name="gift" catalog="system" width="128" height="124"/>
         <image name="leaf.fill" catalog="system" width="128" height="106"/>
+        <image name="questionmark.square.dashed" catalog="system" width="128" height="114"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="volunteer-kids" width="137.5" height="91.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
