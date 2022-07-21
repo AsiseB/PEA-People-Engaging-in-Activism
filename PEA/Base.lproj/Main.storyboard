@@ -16,15 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="P.E.A." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koC-QB-m6m">
-                                <rect key="frame" x="186" y="106" width="44" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Dl-V9-Vms">
-                                <rect key="frame" x="69" y="233" width="48" height="31"/>
+                                <rect key="frame" x="162" y="329" width="85" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="&gt;14"/>
@@ -33,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpt-pk-kIR">
-                                <rect key="frame" x="262" y="233" width="61" height="31"/>
+                                <rect key="frame" x="158" y="421" width="93" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="14-19"/>
@@ -42,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfP-oJ-zBb">
-                                <rect key="frame" x="60" y="433" width="65" height="31"/>
+                                <rect key="frame" x="158" y="514" width="100" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="20-59"/>
@@ -51,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdX-jo-GIB">
-                                <rect key="frame" x="267" y="417" width="51" height="31"/>
+                                <rect key="frame" x="164" y="611" width="88" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="60+"/>
@@ -59,8 +52,12 @@
                                     <segue destination="cvh-Bw-k5H" kind="show" id="Shf-cs-W4J"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wfM-A0-7OD">
+                                <rect key="frame" x="88" y="106" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27G-Nf-d7V">
-                                <rect key="frame" x="143" y="641" width="120" height="31"/>
+                                <rect key="frame" x="117" y="726" width="182" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Current Events"/>
@@ -72,9 +69,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="randomLabel" destination="koC-QB-m6m" id="9gp-nr-b2m"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,7 +87,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529411764708" green="0.29411764705882354" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="HandsOn Portland"/>
+                                <buttonConfiguration key="configuration" style="plain" title="HandsOn Portland 🖐"/>
                                 <connections>
                                     <action selector="HandsOn:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="PZK-qZ-Tam"/>
                                 </connections>
@@ -103,7 +97,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529411764708" green="0.29411764705882354" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="350PDX (climate change)"/>
+                                <buttonConfiguration key="configuration" style="plain" title="350PDX (climate change) 🌎"/>
                                 <connections>
                                     <action selector="PDX:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="ha9-dP-x2k"/>
                                 </connections>
@@ -113,7 +107,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529409999997" green="0.29411764709999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Basic Rights Oregon (LGBTQIA+ rights)"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Basic Rights Oregon (LGBTQIA+ rights) 🏳️‍🌈"/>
                                 <connections>
                                     <action selector="BRO:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="IJd-zh-OZZ"/>
                                 </connections>
@@ -123,7 +117,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529411764708" green="0.29411764705882354" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Transition Projects (homelessness)"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Transition Projects (homelessness) 🏠"/>
                                 <connections>
                                     <action selector="TP:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="9V3-ns-ShI"/>
                                 </connections>
@@ -133,7 +127,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529409999997" green="0.29411764709999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Self Enhancement Inc (underserved youth)"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Self Enhancement Inc (underserved youth) 🧒"/>
                                 <connections>
                                     <action selector="SEI:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="VEQ-mk-2fG"/>
                                 </connections>
@@ -143,7 +137,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529409999997" green="0.29411764709999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Register to Vote!"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Register to Vote! 🗳"/>
                                 <connections>
                                     <action selector="RegisterToVote:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="FWa-uE-zmy"/>
                                 </connections>
@@ -153,7 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529409999997" green="0.29411764709999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Get A Sample Ballot!"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get A Sample Ballot! ☑"/>
                                 <connections>
                                     <action selector="SampleBallot:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="i0H-gX-s0K"/>
                                 </connections>
@@ -170,7 +164,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.58823529411764708" green="0.29411764705882354" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Don't Shoot Portland (racial justice)"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Don't Shoot Portland (racial justice) ✊"/>
                                 <connections>
                                     <action selector="DSP:" destination="dvf-3P-ANZ" eventType="touchUpInside" id="D0W-OV-Jab"/>
                                 </connections>
