@@ -22,7 +22,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="&gt;14"/>
                                 <connections>
-                                    <segue destination="c7g-ke-plQ" kind="show" id="i9f-gt-EuQ"/>
+                                    <segue destination="c7g-ke-plQ" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="i9f-gt-EuQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpt-pk-kIR">
@@ -31,7 +31,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="14-19"/>
                                 <connections>
-                                    <segue destination="2In-EY-haV" kind="show" id="oMV-IP-7ke"/>
+                                    <segue destination="2In-EY-haV" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="oMV-IP-7ke"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfP-oJ-zBb">
@@ -40,7 +40,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="20-59"/>
                                 <connections>
-                                    <segue destination="dvf-3P-ANZ" kind="show" id="um2-j0-S4a"/>
+                                    <segue destination="dvf-3P-ANZ" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="um2-j0-S4a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdX-jo-GIB">
@@ -49,7 +49,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="60+"/>
                                 <connections>
-                                    <segue destination="cvh-Bw-k5H" kind="show" id="Shf-cs-W4J"/>
+                                    <segue destination="cvh-Bw-k5H" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Shf-cs-W4J"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wfM-A0-7OD">
@@ -62,7 +62,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Current Events"/>
                                 <connections>
-                                    <segue destination="Isg-VS-afz" kind="show" id="I5I-C5-GJj"/>
+                                    <segue destination="Isg-VS-afz" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="I5I-C5-GJj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select your age group:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twL-2y-TAb">
@@ -87,7 +87,7 @@
             <objects>
                 <viewController id="dvf-3P-ANZ" customClass="AdultsViewController" customModule="PEA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1X-63-X8c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mf-V4-tf9">
@@ -237,7 +237,7 @@
             <objects>
                 <viewController id="Isg-VS-afz" customClass="CurrentEventsViewController" customModule="PEA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Id4-Hz-9cW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7h-eO-h07">
@@ -303,7 +303,7 @@
             <objects>
                 <viewController id="c7g-ke-plQ" customClass="KidsViewController" customModule="PEA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="niT-WQ-UsW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eE-b3-lf6">
@@ -413,11 +413,11 @@
             <objects>
                 <viewController id="2In-EY-haV" customClass="TeensViewController" customModule="PEA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xiU-XI-S6b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUG-kb-xCH">
-                                <rect key="frame" x="8" y="163" width="165" height="31"/>
+                                <rect key="frame" x="8" y="243" width="165" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -427,8 +427,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYe-gU-55w">
-                                <rect key="frame" x="8" y="353" width="165" height="31"/>
+                                <rect key="frame" x="8" y="466" width="165" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Here To Sign Up"/>
                                 <connections>
@@ -436,8 +437,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPA-Wc-bEl">
-                                <rect key="frame" x="218" y="353" width="165" height="31"/>
+                                <rect key="frame" x="217" y="466" width="165" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Here To Sign Up"/>
                                 <connections>
@@ -445,8 +447,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKp-fV-DjX">
-                                <rect key="frame" x="114" y="568" width="165" height="31"/>
+                                <rect key="frame" x="113" y="715" width="165" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Here To Sign Up"/>
                                 <connections>
@@ -454,14 +457,78 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiT-gR-cxc">
-                                <rect key="frame" x="218" y="163" width="165" height="31"/>
+                                <rect key="frame" x="217" y="243" width="165" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Here To Sign Up"/>
                                 <connections>
                                     <action selector="TransitionProject:" destination="2In-EY-haV" eventType="touchUpInside" id="4Or-xj-2ON"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RTX-iz-1mB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                    <color key="textShadowColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFu-XE-gpD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Activities For Teens" id="2ci-XJ-d1q"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You can find alternative opportunities to interact with the Portland community or start new ones with the assistance of PSPR." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PPE-si-wKS">
+                                <rect key="frame" x="8" y="125" width="197" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-9g-F0L">
+                                <rect key="frame" x="217" y="115" width="189" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Through our Resource Center, shelter services, Mobile Engagement team, and case management programs, we provide supplies to persons in need</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="90b-CK-FVu">
+                                <rect key="frame" x="20" y="291" width="165" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Our programs are constantly in need of volunteer coaches, teaching assistants, and mentors, and additional hands are always welcome in the parks, gardens, and natural areas.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QW5-qU-NMa">
+                                <rect key="frame" x="216" y="301" width="178" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Provide homebound elders with meals. A week's supply of meals are delivered to each senior by volunteers who practice non-contact delivery.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O5o-Db-IPp">
+                                <rect key="frame" x="66" y="540" width="259" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">They develop their leadership abilities, meet new people, and discover new hobbies in a welcoming, supportive, and age-appropriate setting with tangible outcomes. The first step towards a lifetime of selfless service to worthy causes might be to volunteer now.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xpj-yL-Mtk"/>
                         <color key="backgroundColor" red="0.50545812889999997" green="0.59990979960000002" blue="0.45923296730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -478,14 +545,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vlq-m9-6Zi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1406" y="69"/>
+            <point key="canvasLocation" x="1405.7971014492755" y="68.973214285714278"/>
         </scene>
         <!--Elders View Controller-->
         <scene sceneID="Buu-mS-9qC">
             <objects>
                 <viewController id="cvh-Bw-k5H" customClass="EldersViewController" customModule="PEA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ioP-Fg-PEA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="goS-Lp-Yec"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -509,6 +576,9 @@
         <image name="volunteer-kids" width="137.5" height="91.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
