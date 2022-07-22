@@ -269,7 +269,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYt-wr-cAD">
-                                <rect key="frame" x="54" y="241" width="307" height="31"/>
+                                <rect key="frame" x="54" y="290" width="307" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -283,20 +283,78 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="helpUkraineButton:" destination="Isg-VS-afz" eventType="touchUpInside" id="C6i-FJ-RK1"/>
                                     <action selector="helpUkraineButton:" destination="LWk-SS-mFZ" eventType="touchUpInside" id="NsS-W3-IN0"/>
+                                    <action selector="helpUkraineButton:" destination="Isg-VS-afz" eventType="touchUpInside" id="Sf4-kh-sFm"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dVb-cg-bu2">
-                                <rect key="frame" x="87" y="96" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dVb-cg-bu2">
+                                <rect key="frame" x="87" y="136" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwu-eM-Bto">
-                                <rect key="frame" x="76" y="298" width="263" height="31"/>
+                                <rect key="frame" x="71" y="329" width="263" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title="Opportunities to help in your area"/>
+                                <connections>
+                                    <action selector="inAreaButton:" destination="Isg-VS-afz" eventType="touchUpInside" id="iQh-Fp-hyI"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="r94-hR-H0f">
+                                <rect key="frame" x="66" y="427" width="273" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYb-J0-hT8">
+                                <rect key="frame" x="0.0" y="73" width="351" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="339-R7-Y7D">
+                                <rect key="frame" x="-20" y="73" width="445" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stay up to date about what you can do for your community"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7v-zm-yx9">
+                                <rect key="frame" x="80" y="610" width="235" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="questionmark" catalog="system" title="What are the laws in my state?"/>
+                                <connections>
+                                    <action selector="myLawsButton:" destination="Isg-VS-afz" eventType="touchUpInside" id="3oG-ek-Zty"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Roe vs. Wade overturned" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4B6-Ar-4yl">
+                                <rect key="frame" x="112" y="398" width="191" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rW-14-8WM">
+                                <rect key="frame" x="56" y="673" width="303" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title="Support your local planned parenthood "/>
+                                <connections>
+                                    <action selector="supportPlannedButtone:" destination="Isg-VS-afz" eventType="touchUpInside" id="3JC-bp-5ur"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqC-Bf-Mtm">
+                                <rect key="frame" x="109" y="740" width="218" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15158283040000001" green="0.30827158510000002" blue="0.06605621481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title="Other options for donation"/>
+                                <connections>
+                                    <action selector="otherOptionsButton:" destination="Isg-VS-afz" eventType="touchUpInside" id="Xy1-89-prb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uwi-Wn-Wsk"/>
@@ -304,7 +362,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="AYU-3A-EL6"/>
                     <connections>
-                        <outlet property="helpUkraineButton" destination="qYt-wr-cAD" id="HqS-Ye-Z3d"/>
+                        <outlet property="helpUkraineButton" destination="qYt-wr-cAD" id="fZ2-Nk-kce"/>
+                        <outlet property="inAreaButton" destination="mwu-eM-Bto" id="pWq-14-ULJ"/>
+                        <outlet property="myLawsButton" destination="u7v-zm-yx9" id="eD6-Kt-Xxb"/>
+                        <outlet property="otherOptionsButton" destination="QqC-Bf-Mtm" id="RG4-Ku-V7Y"/>
+                        <outlet property="supportPlannedButton" destination="0rW-14-8WM" id="OnM-dV-0ph"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndK-ec-u8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -620,6 +682,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Image" width="380" height="228"/>
+        <image name="Image-2" width="300" height="168"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="car" catalog="system" width="128" height="93"/>
         <image name="cart" catalog="system" width="128" height="102"/>
@@ -631,6 +695,7 @@
         <image name="parkingsign.circle" catalog="system" width="128" height="121"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="person.fill.checkmark" catalog="system" width="128" height="88"/>
+        <image name="questionmark" catalog="system" width="96" height="128"/>
         <image name="questionmark.square.dashed" catalog="system" width="128" height="114"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="volunteer-kids" width="137.5" height="91.5"/>
